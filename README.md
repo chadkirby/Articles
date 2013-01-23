@@ -1,6 +1,7 @@
 The Article class determines whether "a" or "an" should precede a word in English using the method described in [this stackoverflow response](http://stackoverflow.com/questions/1288291/how-can-i-correctly-prefix-a-word-with-a-and-an/1288473#1288473). The wikipedia-article-text dump provided by [Eamon Nerbonne](http://home.nerbonne.org/A-vs-An/) was used as the basis for the dataset.
 
 Example:
+
 	Articles.articlize(
 
 	  'unanticipated result'
@@ -28,6 +29,7 @@ Example:
 
 
 Output:
+
 	[ 'an unanticipated result',
 
 	  'a unanimous vote',
