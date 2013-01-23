@@ -8,51 +8,29 @@ Example:
 
     Articles = require('Articles')
 	Articles.articlize(
-
 	  'unanticipated result'
-
 	  'unanimous vote'
-
 	  'honest decision'
-
 	  'honeysuckle shrub'
-
 	  '0800 number'
-
 	  '∞ of oregano'
-
 	  'NASA scientist'
-
 	  'NSA analyst'
-
 	  'FIAT car'
-
 	  'FAA policy'
-
 	)
-
-
 
 Output:
 
 	[ 'an unanticipated result',
-
 	  'a unanimous vote',
-
 	  'an honest decision',
-
 	  'a honeysuckle shrub',
-
 	  'an 0800 number',
-
 	  'an ∞ of oregano',
-
 	  'a NASA scientist',
-
 	  'an NSA analyst',
-
 	  'a FIAT car',
-
 	  'an FAA policy' ]
 
 
