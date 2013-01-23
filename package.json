@@ -1,7 +1,7 @@
 {
   "name": "articles",
   "version": "0.1.0",
-  "description": "Utility to determine the indirect article (in English) for a given word, using the metod described at http://stackoverflow.com/questions/1288291/how-can-i-correctly-prefix-a-word-with-a-and-an/1288473#1288473 and the data provided at http://home.nerbonne.org/A-vs-An/",
+  "description": "Utility to determine the indirect article (in English) for a given word, using the method described at http://stackoverflow.com/questions/1288291/how-can-i-correctly-prefix-a-word-with-a-and-an/1288473#1288473 and the data provided at http://home.nerbonne.org/A-vs-An/",
   "main": "Articles.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
