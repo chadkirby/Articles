@@ -6,6 +6,7 @@ To use:
 
 Example:
 
+    Articles = require('Articles')
 	Articles.articlize(
 
 	  'unanticipated result'
