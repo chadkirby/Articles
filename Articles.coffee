@@ -435,20 +435,28 @@ class Articles
 
 module.exports = Articles
 
-# moment = require 'moment'
-# now = moment()
+if require.main is module
 
-# console.log Articles.articlize(
-#   'unanticipated result'
-#   'unanimous vote'
-#   'honest decision'
-#   'honeysuckle shrub'
-#   '0800 number'
-#   '∞ of oregano'
-#   'NASA scientist'
-#   'NSA analyst'
-#   'FIAT car'
-#   'FAA policy'
-# )
+  words = require('fs').readFileSync('/usr/share/dict/words', 'utf8').split '\n'
+  console.log "#{words.length} words loaded"
 
-# console.log moment().diff(now, 'milliseconds')
+  console.time 'articlize timer'
+
+  for word, i in words
+    o = Articles.articlize word
+    # console.log o if i%1000 is 0
+
+  console.timeEnd 'articlize timer'
+
+  # console.log Articles.articlize(
+  #   'unanticipated result'
+  #   'unanimous vote'
+  #   'honest decision'
+  #   'honeysuckle shrub'
+  #   '0800 number'
+  #   '∞ of oregano'
+  #   'NASA scientist'
+  #   'NSA analyst'
+  #   'FIAT car'
+  #   'FAA policy'
+  # )
