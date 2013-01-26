@@ -432,4 +432,4 @@ for [article, prefixList] in articleArray
   for prefix in prefixList
     setPath articles, prefix, article
 
-fs.writeFile './articledata.json', JSON.stringify(articles)
+fs.writeFile '../lib/articledata.json', JSON.stringify(articles)
