@@ -1,5 +1,4 @@
 {articlize} = require '../lib/Articles'
-# {articlize} = require 'Articles'
 fs = require 'fs'
 words = """
   #{fs.readFileSync('/usr/share/dict/words', 'utf8')}
