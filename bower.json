@@ -1,0 +1,11 @@
+{
+  "name": "articles",
+  "version": "0.2.1",
+  "authors": [
+    "Chad Kirby"
+  ],
+  "private": false,
+  "main": "lib/Articles.js",
+  "ignore": [],
+  "dependencies": {}
+}
