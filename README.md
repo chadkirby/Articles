@@ -6,7 +6,7 @@ To use:
 
 Example:
 
-    Articles = require('Articles')
+    Articles = require('articles')
 	Articles.articlize(
 	  'unanticipated result'
 	  'unanimous vote'
