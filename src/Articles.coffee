@@ -2988,10 +2988,10 @@ find = (word, obj = arts, article = 'a') ->
   else
     article
 
-articlize = (inputs...) -> 
+articlize = (inputs...) ->
   out = for input in inputs when input?
     "#{find(input)} #{input}"
-  if inputs.length is 1 then out[0] else out 
+  if inputs.length is 1 then out[0] else out
 
 
 module.exports = {

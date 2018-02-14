@@ -8,8 +8,8 @@ task 'sbuild', 'Build project from src/*.coffee to lib/*.js', ->
     console.log stdout + stderr
 
 task 'watch', 'Watch src/ for changes', ->
-    coffee = spawn 'coffee', ['-w', '-c', '-o', 'lib', 'src']
-    coffee.stderr.on 'data', (data) ->
-      process.stderr.write data.toString()
-    coffee.stdout.on 'data', (data) ->
-      print data.toString()
+  coffee = spawn 'coffee', ['-w', '-c', '-o', 'lib', 'src']
+  coffee.stderr.on 'data', (data) ->
+    process.stderr.write data.toString()
+  coffee.stdout.on 'data', (data) ->
+    print data.toString()
