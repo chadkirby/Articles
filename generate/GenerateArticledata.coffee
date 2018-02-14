@@ -3,7 +3,16 @@ fs = require 'fs'
 http://home.nerbonne.org/A-vs-An/
 http://stackoverflow.com/questions/1288291/how-can-i-correctly-prefix-a-word-with-a-and-an/1288473#1288473
 
-This page determines whether "a" or "an" should precede a word. It does this using the method described in this stackoverflow response. The dataset used is the wikipedia-article-text dump. Some additional preprocessing was done to remove as much wiki-markup as possible and extract only things vague resembling sentences using regular expressions. If the word following 'a' or 'an' was quoted, those quotes were ignored. The entire resultant dataset is merely 13KB in size and could be compressed further; it's included inline in this page.
+This page determines whether "a" or "an" should precede a
+word. It does this using the method described in this
+stackoverflow response. The dataset used is the
+wikipedia-article-text dump. Some additional preprocessing
+was done to remove as much wiki-markup as possible and
+extract only things vague resembling sentences using regular
+expressions. If the word following 'a' or 'an' was quoted,
+those quotes were ignored. The entire resultant dataset is
+merely 13KB in size and could be compressed further; it's
+included inline in this page.
 ###
 
 articleArray = [
